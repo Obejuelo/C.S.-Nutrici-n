@@ -1,0 +1,22 @@
+import React from 'react';
+import {AppBar, Toolbar,Typography} from '@material-ui/core';
+import {ThemeProvider} from '@material-ui/styles';
+import {useSelector} from 'react-redux';
+
+function FooterLayout1(props) {
+    const footerTheme = useSelector(({ core }) => core.settings.footerTheme);
+
+    return (
+        <ThemeProvider theme={footerTheme}>
+            <AppBar id="core-footer" className="relative z-10" color="default">
+                <Toolbar className="px-16 py-0 flex items-center">
+                    <Typography>
+                        Footer
+                    </Typography>
+                </Toolbar>
+            </AppBar>
+        </ThemeProvider>
+    );
+}
+
+export default FooterLayout1;

@@ -2,6 +2,10 @@
 
 In the project directory, you can run:
 
+### `yarn or npm install`
+
+To install all node_modules
+
 ### `yarn start`
 
 Runs the app in the development mode.<br>

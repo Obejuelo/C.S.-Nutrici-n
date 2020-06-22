@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {renderRoutes} from 'react-router-config'
-import {Scrollbars, Suspense} from '@core';
+import {Scrollbars, Suspense, Message} from '@core';
 import {makeStyles} from '@material-ui/styles';
 import {useSelector} from 'react-redux';
 import ToolbarLayout1 from './components/ToolbarLayout1';
@@ -112,6 +112,7 @@ function Layout1(props) {
                         </Scrollbars>
 
                     </div>
+                    <Message/>
                 </div>
             </div>
         </div>

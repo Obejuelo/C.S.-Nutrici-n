@@ -79,7 +79,7 @@
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-prettier": "^3.1.2",
         "js-beautify": "1.10.2",
-        "marked": "0.7.0",
+        "marked": "4.0.10",
         "prettier": "^2.0.2",
         "purgecss": "1.4.1",
         "tailwindcss": "1.1.3",
